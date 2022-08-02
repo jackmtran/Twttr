@@ -12,7 +12,7 @@ import { authenticate } from './store/session';
 function App() {
   const [loaded, setLoaded] = useState(false);
   const dispatch = useDispatch();
-  console.log("2")
+  console.log("1")
 
   useEffect(() => {
     (async() => {
