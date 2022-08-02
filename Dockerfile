@@ -2,7 +2,7 @@
 FROM python:3.9
 # Set the following enviroment variables
 #
-REACT_APP_BASE_URL=https://twttrapp.herokuapp.com/
+ENV REACT_APP_BASE_URL=https://twttrapp.herokuapp.com/
 ENV FLASK_APP=app
 ENV FLASK_ENV=production
 ENV SQLALCHEMY_ECHO=True
